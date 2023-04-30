@@ -6,7 +6,7 @@ namespace adonet.Controllers
 {
     public class StudentController : Controller
     {
-        private readonly string _connectionString = "Data Source=/home/suman/Desktop/DotnetProjects/adonet/test.db;";
+        private readonly string _connectionString = "Data Source=test.db;";
 
         public IActionResult Create()
         {
