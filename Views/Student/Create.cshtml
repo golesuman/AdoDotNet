@@ -1,0 +1,24 @@
+@model adonet.Models.Student
+
+<h1>Create Student</h1>
+
+<form asp-action="Create">
+    <div>
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <label asp-for="Roll">Roll:</label>
+        <input asp-for="Roll" />
+        <span asp-validation-for="Roll"></span>
+    </div>
+    <div>
+        <label asp-for="Address">Address:</label>
+        <input asp-for="Address" />
+        <span asp-validation-for="Address"></span>
+    </div>
+    <div>
+        <button type="submit">Save</button>
+    </div>
+</form>
